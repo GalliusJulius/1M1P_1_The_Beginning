@@ -24,16 +24,23 @@ const Navbar = ({ siteTitle }) => {
           <ul className="navbar-nav me-auto mb-2 mb-md-0">
             <li className="nav-item">
               <ExactNavLink
-                to="/"
+                to="/about/"
               >
-                Home
+                About Me
               </ExactNavLink>
             </li>
             <li className="nav-item">
               <ExactNavLink
-                to="/about"
+                  to="/resume/"
               >
-                About
+                Resume
+              </ExactNavLink>
+            </li>
+            <li className="nav-item">
+              <ExactNavLink
+                  to="/projects/"
+              >
+                1M1P
               </ExactNavLink>
             </li>
           </ul>
