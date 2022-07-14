@@ -1,0 +1,44 @@
+@import "../constants";
+$fontSize: 40px;
+
+.section{
+  height: 100%;
+  width: 100%;
+}
+
+.change_outer{
+  font-size: $fontSize;
+  height: $fontSize *1.5;
+  line-height: $fontSize *1.5;
+  overflow: hidden;
+  background-color: $secondary;
+  border-radius: 5px;
+
+  .change_inner {
+    position: relative;
+    top: 0px;
+    animation: rotate 8s ease-in-out infinite;
+    .dynamic-word {
+      padding-right: 10px;
+      padding-right: 10px;
+    }
+  }
+}
+
+@keyframes rotate {
+  0%, 20% {
+    transform: translateY(0);
+  }
+  25%,45% {
+    transform: translateY($fontSize * -1.5);
+  }
+  50%,70% {
+    transform: translateY($fontSize * -3);
+  }
+  75%,95% {
+    transform: translateY($fontSize * -4.5);
+  }
+  100% {
+    transform: translateY($fontSize * -6);
+  }
+}

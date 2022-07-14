@@ -1,0 +1,15 @@
+@use 'layout';
+@import "../constants";
+
+.navbar-custom{
+  width: 100%;
+  top: 0px;
+  background-color: $primary;
+}
+
+.navbar-icon{
+  font-size: 25px;
+  margin-left: 10px;
+  color: white;
+}
+

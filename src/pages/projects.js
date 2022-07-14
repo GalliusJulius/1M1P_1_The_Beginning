@@ -7,7 +7,7 @@ import Seo from "../components/seo"
 const ProjectsPage = () => (
     <Layout>
         <Seo title="Page two" />
-        <div className="container text-center my-5">
+        <div className="container text-center my-5 section">
             <h1>1M1P</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, eaque!</p>
         </div>
